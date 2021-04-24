@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   margin: 0;
   padding: 0;
@@ -154,4 +154,13 @@ body {
   .main img {
     width: 100%;
   }
+}
+ */
+
+p {
+  color: green;
+}
+
+h1 {
+  color: maroon;
 }
