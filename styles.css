@@ -196,3 +196,11 @@ a[href*="seoul"] {
 a:hover {
   color: darkorange;
 }
+
+.heading-background {
+  background-color: aqua;
+}
+
+#publish-time {
+  color: gray;
+}
