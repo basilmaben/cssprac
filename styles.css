@@ -192,3 +192,7 @@ a[href*="beijing"] {
 a[href*="seoul"] {
   color: lightpink;
 }
+
+a:hover {
+  color: darkorange;
+}
