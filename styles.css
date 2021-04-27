@@ -156,7 +156,6 @@ body {
   }
 }
  */
-
 * {
   border: 1px solid red;
 }
@@ -223,4 +222,12 @@ h2.destination {
 
 .description h5 {
   color: blueviolet;
+}
+
+li h4 {
+  color: gold;
+}
+
+h4 {
+  color: dodgerblue;
 }
