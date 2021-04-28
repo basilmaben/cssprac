@@ -177,7 +177,7 @@ h1 {
 }
 
 #article-title {
-  font-family: cursive;
+  font-family: Tahoma;
 }
 
 a[href*="florence"] {
@@ -230,4 +230,9 @@ li h4 {
 
 h4 {
   color: dodgerblue;
+}
+
+li,
+h5 {
+  font-family: monospace;
 }
