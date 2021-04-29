@@ -1,238 +1,76 @@
-/* html,
 body {
+  /* Old browsers */
+  background: #141e30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577d, #141e30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577d, #141e30);
   margin: 0;
   padding: 0;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 940px;
-  padding: 0 10px;
-}
-
-.header {
-  background: url(https://content.codecademy.com/projects/innovation-cloud/bg.jpg)
-    no-repeat center center;
-  background-size: cover;
-  height: 800px;
-  text-align: center;
-}
-
-.header .container {
-  position: relative;
-  top: 200px;
-}
-
-.header h1 {
-  color: #fff;
-  line-height: 100px;
-  font-size: 80px;
-  margin-top: 0;
-  margin-bottom: 80px;
-  text-transform: uppercase;
-}
-
-@media (min-width: 850px) {
-  .header h1 {
-    font-size: 120px;
-  }
-}
-
-.header p {
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 8px;
-  margin-bottom: 40px;
-  margin-top: 0;
-  text-transform: uppercase;
-}
-
-.btn {
-  color: #fff;
-  background: #000;
-  padding: 10px 40px;
-  text-decoration: none;
-  transition: background 0.5s;
-}
-
-.nav {
-  background: #000;
-  height: 80px;
-  width: 100%;
-}
-
-.nav ul {
-  height: 80px;
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.nav ul li {
-  color: #fff;
-  display: inline-block;
-  height: 80px;
-  line-height: 80px;
-  list-style: none;
-  padding: 0 10px;
-  transition: background 0.5s;
-}
-
-.btn:hover,
-.nav ul li:hover {
-  background: #117bff;
-  cursor: pointer;
-  transition: background 0.5s;
-}
-
-.main .container {
-  margin: 80px auto;
-}
-
-.main img {
-  float: left;
-  margin: 50px 80px 50px 0;
-}
-
-.jumbotron {
-  background: url(https://content.codecademy.com/projects/innovation-cloud/jumbotron_bg.jpg)
-    center center;
-  background-size: cover;
-  height: 600px;
-}
-
-.jumbotron .container {
-  position: relative;
-  top: 220px;
-}
-
-.jumbotron h2 {
-  color: #fff;
-  text-align: right;
-}
-
-.jumbotron p {
-  color: #fff;
-  text-align: right;
-}
-
-.jumbotron .btn {
-  margin: 10px 0 0;
-  float: right;
-}
-
-.footer {
-  background: #000;
-  height: 80px;
-  padding-bottom: 50px;
-}
-
-.footer p {
-  color: #fff;
-  font-size: 14px;
-  height: 80px;
-  line-height: 80px;
-  margin: 0;
-}
-
-@media (max-width: 500px) {
-  .header h1 {
-    font-size: 50px;
-    line-height: 64px;
-  }
-
-  .main,
-  .jumbotron {
-    padding: 0 30px;
-  }
-
-  .main img {
-    width: 100%;
-  }
-}
- */
-* {
-  border: 1px solid red;
-}
-
-p {
-  color: green;
 }
 
 h1 {
-  color: maroon;
+  color: #fff;
+  font-size: 2em;
+  padding-top: 100px;
+  width: 100%;
 }
 
-.title {
-  color: teal;
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 70%;
 }
 
-.uppercase {
+p {
+  color: aliceblue;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
+}
+
+.byline {
+  font-family: Helvetica;
+  color: rgba(255, 255, 255, 0.5);
+  float: left;
+  font-size: 14px;
+  padding-left: 10px;
   text-transform: uppercase;
 }
 
-#article-title {
-  font-family: Tahoma;
+.caption {
+  display: block;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
 }
 
-a[href*="florence"] {
-  color: lightgreen;
+.content {
+  padding: 40px;
 }
 
-a[href*="beijing"] {
-  color: lightblue;
+.image {
+  background-image: url("https://content.codecademy.com/courses/web-101/unit-4/htmlcss1-img_soccer.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
 }
 
-a[href*="seoul"] {
-  color: lightpink;
-}
-
-a:hover {
-  color: darkorange;
-}
-
-.heading-background {
-  background-color: aqua;
-}
-
-#publish-time {
-  color: lightgray;
-}
-
-h5 {
-  color: yellow;
-}
-
-.author-class {
-  color: pink;
-}
-
-#author-id {
-  color: cornflowerblue;
-}
-
-h2.destination {
-  font-family: Tahoma;
-}
-
-.description h5 {
-  color: blueviolet;
-}
-
-li h4 {
-  color: gold;
-}
-
-h4 {
-  color: dodgerblue;
-}
-
-li,
-h5 {
-  font-family: monospace;
+.writer-img {
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  float: left;
+  width: 50px;
 }
