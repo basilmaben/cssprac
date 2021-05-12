@@ -1,13 +1,12 @@
-
 /* Universal Styles */
 html {
   font-size: 16px;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 body {
-  background-color: #F2F2F2;  
-  text-align: center;  
+  background-color: #f2f2f2;
+  text-align: center;
 }
 
 h1 {
@@ -32,9 +31,7 @@ p {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-
 }
-
 
 /* Header */
 .header {
@@ -53,19 +50,18 @@ p {
 }
 
 .header a {
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 
 a.home {
-  color: #4D00FF;
+  color: #4d00ff;
 }
-
 
 /* Banner Section */
 .banner {
   margin-top: 74px;
   padding: 40px 0 100px 0;
-  background-color: #4D00FF;
+  background-color: #4d00ff;
 }
 
 .banner p {
@@ -75,12 +71,11 @@ a.home {
   font-weight: lighter;
 }
 
-
 /* Editorial Sections */
 .editorial {
   padding-bottom: 40px;
   color: #717171;
-  font-family: 'Trebuchet MS', 'Times New Roman', serif;
+  font-family: "Trebuchet MS", "Times New Roman", serif;
 }
 
 /* Font Card Sections */
@@ -93,16 +88,16 @@ a.home {
 .font-card .creator {
   padding: 10px 20px;
   font-size: 16px;
-  
+  font-style: italic;
 }
 
 .sample {
-  display: inline-block;  
+  display: inline-block;
   padding: 5px 40px;
 }
 
 .sample .text {
-  color: #4D00FF;
+  color: #4d00ff;
   font-size: 100px;
 }
 
@@ -115,7 +110,6 @@ a.home {
 }
 
 .space {
-  
 }
 
 .bold {
